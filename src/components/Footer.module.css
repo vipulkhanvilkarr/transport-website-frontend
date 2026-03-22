@@ -1,0 +1,111 @@
+.footer {
+  margin-top: auto;
+  background: var(--color-bg-elevated);
+  border-top: 1px solid var(--color-border);
+}
+
+.cta {
+  background: linear-gradient(135deg, var(--color-surface) 0%, var(--color-bg-elevated) 100%);
+  padding: 3rem 1rem;
+}
+
+.ctaInner {
+  max-width: var(--container);
+  margin: 0 auto;
+  text-align: center;
+}
+
+.ctaTitle {
+  font-family: var(--font-display);
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin: 0 0 0.5rem;
+  color: var(--color-text);
+}
+
+.ctaTagline {
+  margin: 0 0 0.5rem;
+  color: var(--color-text-muted);
+  font-size: 0.9375rem;
+}
+
+.ctaPhone {
+  display: inline-block;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--color-primary);
+  margin: 0.5rem 0;
+  text-decoration: none;
+}
+
+.ctaPhone:hover {
+  color: var(--color-primary-hover);
+  text-decoration: none;
+}
+
+.ctaAddress {
+  margin: 1rem 0 0.5rem;
+  color: var(--color-text-muted);
+  font-size: 0.9375rem;
+  line-height: 1.5;
+}
+
+.ctaEmail {
+  margin: 0.5rem 0 0;
+}
+
+.ctaEmail a {
+  color: var(--color-primary);
+}
+
+.bottom {
+  padding: 1.5rem 1rem;
+  border-top: 1px solid var(--color-border);
+}
+
+.container {
+  max-width: var(--container);
+  margin: 0 auto;
+}
+
+.linksTitle {
+  font-family: var(--font-display);
+  font-size: 0.9375rem;
+  font-weight: 600;
+  margin: 0 0 0.75rem;
+  color: var(--color-text);
+}
+
+.links ul {
+  list-style: none;
+  margin: 0 0 1rem;
+  padding: 0;
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.links a {
+  color: var(--color-text-muted);
+}
+
+.links a:hover {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+.copyright {
+  margin: 0;
+  font-size: 0.875rem;
+  color: var(--color-text-muted);
+}
+
+@media (min-width: 600px) {
+  .ctaTitle {
+    font-size: 2rem;
+  }
+
+  .ctaPhone {
+    font-size: 1.5rem;
+  }
+}
